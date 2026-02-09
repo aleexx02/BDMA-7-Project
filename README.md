@@ -33,8 +33,9 @@ Across the 8‑fold evaluation and three tested models:
 
 
 ## Setup
-1. Clone this repository
+
+Clone this repository
 ```bash
-git clone https://github.com/aleexx02/BDMA-7-Project.git`
-`cd BDMA-7-Project
+git clone https://github.com/aleexx02/BDMA-7-Project.git
+cd BDMA-7-Project
 ```
