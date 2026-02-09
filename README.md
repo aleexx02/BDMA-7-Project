@@ -16,20 +16,20 @@ Across the 8‑fold evaluation and three tested models:
 - All ConvNeXt‑based models outperform the ResNet‑50 baseline, confirming the benefits of the modernized architecture.
 
 ## Project Structure
-## Project Structure
+```text
 .
-├── BDMA7_project_files/          # Dataset folder
+├── BDMA7_project_files/
 │   ├── train_images/             # Training images (one folder per class)
 │   ├── val_images/               # Validation images (one folder per class)
-│   └── test_images/              # Test images
-│       └── mistery_cat/           # Unlabeled test images
+│   └── test_images/
+│       └── mistery_cat/          # Unlabeled test images
 │
 ├── ConvNext_3Heads_Layers.ipynb   # Model 1: ConvNeXt-Small with 3 classifier heads
 ├── ConvNext_3Layers/             # Model 2: ConvNeXt-Small with 1 head (fixed 3-layer architecture)
-├── ConvNext_Layers/              # Model 3: ConvNeXt-Small with 1 head (1, 2, or 3 trainable layers)
+├── ConvNext_Layers/              # Model 3: ConvNeXt-Small with 1 head (1–3 trainable layers)
 ├── README.md                     # Project documentation
 └── sample_submission.csv         # Example CSV submission file
-
+```
 
 
 ## Setup
